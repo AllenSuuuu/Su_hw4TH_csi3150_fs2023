@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: url("img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+}
+
+header {
+  background-color: #784545;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.dealership-name {
+  color: #ecf0f1;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: auto; /* pushes the filters to the right side */
+}
+
+/* Form Elements Styling */
+header label,
+header select {
+  background-color: #ecf0f1;
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+header input[type="number"] {
+  background-color: #ecf0f1;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+header select {
+  border: none;
+  padding: 5px 10px;
+}
+
+#filter-button {
+  background-color: orange;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.notice {
+  margin-top: 10px;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.car-card {
+  color: rgb(255, 102, 0);
+  border: 1px solid black;
+  padding: 5px;
+  margin: 1px;
+  border-radius: 3px;
+  flex-basis: calc(25% - 15px);
+}
+
+.car-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5px;
+}
